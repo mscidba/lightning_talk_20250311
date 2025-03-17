@@ -1,0 +1,213 @@
+State,Bordering State
+Alabama,Florida
+Alabama,Georgia
+Alabama,Mississippi
+Alabama,Tennessee
+Arizona,California
+Arizona,Nevada
+Arizona,Utah
+Arizona,Colorado
+Arizona,New Mexico
+Arkansas,Missouri
+Arkansas,Tennessee
+Arkansas,Mississippi
+Arkansas,Louisiana
+Arkansas,Texas
+Arkansas,Oklahoma
+California,Oregon
+California,Nevada
+California,Arizona
+Colorado,Wyoming
+Colorado,Nebraska
+Colorado,Kansas
+Colorado,Oklahoma
+Colorado,New Mexico
+Colorado,Utah
+Connecticut,New York
+Connecticut,Massachusetts
+Connecticut,Rhode Island
+Delaware,Maryland
+Delaware,New Jersey
+Delaware,Pennsylvania
+Florida,Alabama
+Florida,Georgia
+Georgia,Florida
+Georgia,Alabama
+Georgia,Tennessee
+Georgia,South Carolina
+Idaho,Washington
+Idaho,Oregon
+Idaho,Nevada
+Idaho,Utah
+Idaho,Wyoming
+Idaho,Montana
+Illinois,Wisconsin
+Illinois,Iowa
+Illinois,Missouri
+Illinois,Kentucky
+Illinois,Indiana
+Indiana,Michigan
+Indiana,Ohio
+Indiana,Kentucky
+Indiana,Illinois
+Iowa,Minnesota
+Iowa,Wisconsin
+Iowa,Illinois
+Iowa,Missouri
+Iowa,Nebraska
+Iowa,South Dakota
+Kansas,Nebraska
+Kansas,Missouri
+Kansas,Oklahoma
+Kansas,Colorado
+Kentucky,Illinois
+Kentucky,Indiana
+Kentucky,Ohio
+Kentucky,West Virginia
+Kentucky,Virginia
+Kentucky,Tennessee
+Kentucky,Missouri
+Louisiana,Texas
+Louisiana,Arkansas
+Louisiana,Mississippi
+Maine,New Hampshire
+Maryland,Virginia
+Maryland,West Virginia
+Maryland,Delaware
+Maryland,Pennsylvania
+Massachusetts,New York
+Massachusetts,Vermont
+Massachusetts,New Hampshire
+Massachusetts,Connecticut
+Massachusetts,Rhode Island
+Michigan,Wisconsin
+Michigan,Indiana
+Michigan,Ohio
+Minnesota,North Dakota
+Minnesota,South Dakota
+Minnesota,Iowa
+Minnesota,Wisconsin
+Mississippi,Louisiana
+Mississippi,Arkansas
+Mississippi,Tennessee
+Mississippi,Alabama
+Missouri,Iowa
+Missouri,Illinois
+Missouri,Kentucky
+Missouri,Tennessee
+Missouri,Arkansas
+Missouri,Oklahoma
+Missouri,Kansas
+Missouri,Nebraska
+Montana,North Dakota
+Montana,South Dakota
+Montana,Wyoming
+Montana,Idaho
+Nebraska,South Dakota
+Nebraska,Iowa
+Nebraska,Missouri
+Nebraska,Kansas
+Nebraska,Colorado
+Nebraska,Wyoming
+Nevada,Oregon
+Nevada,Idaho
+Nevada,Utah
+Nevada,Arizona
+Nevada,California
+New Hampshire,Maine
+New Hampshire,Vermont
+New Hampshire,Massachusetts
+New Jersey,New York
+New Jersey,Delaware
+New Jersey,Pennsylvania
+New Mexico,Colorado
+New Mexico,Oklahoma
+New Mexico,Texas
+New Mexico,Arizona
+New Mexico,Utah
+New York,Vermont
+New York,Massachusetts
+New York,Connecticut
+New York,New Jersey
+New York,Pennsylvania
+North Carolina,Virginia
+North Carolina,Tennessee
+North Carolina,Georgia
+North Carolina,South Carolina
+North Dakota,Minnesota
+North Dakota,South Dakota
+North Dakota,Montana
+Ohio,Michigan
+Ohio,Indiana
+Ohio,Kentucky
+Ohio,West Virginia
+Ohio,Pennsylvania
+Oklahoma,Kansas
+Oklahoma,Missouri
+Oklahoma,Arkansas
+Oklahoma,Texas
+Oklahoma,New Mexico
+Oklahoma,Colorado
+Oregon,Washington
+Oregon,Idaho
+Oregon,Nevada
+Oregon,California
+Pennsylvania,New York
+Pennsylvania,New Jersey
+Pennsylvania,Delaware
+Pennsylvania,Maryland
+Pennsylvania,West Virginia
+Pennsylvania,Ohio
+Rhode Island,Connecticut
+Rhode Island,Massachusetts
+South Carolina,North Carolina
+South Carolina,Georgia
+South Dakota,North Dakota
+South Dakota,Minnesota
+South Dakota,Iowa
+South Dakota,Nebraska
+South Dakota,Wyoming
+South Dakota,Montana
+Tennessee,Kentucky
+Tennessee,Virginia
+Tennessee,North Carolina
+Tennessee,Georgia
+Tennessee,Alabama
+Tennessee,Mississippi
+Tennessee,Arkansas
+Tennessee,Missouri
+Texas,New Mexico
+Texas,Oklahoma
+Texas,Arkansas
+Texas,Louisiana
+Utah,Idaho
+Utah,Wyoming
+Utah,Colorado
+Utah,New Mexico
+Utah,Arizona
+Utah,Nevada
+Vermont,New Hampshire
+Vermont,Massachusetts
+Vermont,New York
+Virginia,West Virginia
+Virginia,Maryland
+Virginia,North Carolina
+Virginia,Tennessee
+Virginia,Kentucky
+Washington,Oregon
+Washington,Idaho
+West Virginia,Ohio
+West Virginia,Pennsylvania
+West Virginia,Maryland
+West Virginia,Virginia
+West Virginia,Kentucky
+Wisconsin,Minnesota
+Wisconsin,Iowa
+Wisconsin,Illinois
+Wisconsin,Michigan
+Wyoming,Montana
+Wyoming,South Dakota
+Wyoming,Nebraska
+Wyoming,Colorado
+Wyoming,Utah
+Wyoming,Idaho

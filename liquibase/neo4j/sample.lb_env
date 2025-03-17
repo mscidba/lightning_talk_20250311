@@ -1,0 +1,4 @@
+#!/bin/bash
+export LIQUIBASE_COMMAND_USERNAME="YourNeo4jLoginNameHere"
+export LIQUIBASE_COMMAND_PASSWORD="YourNeo4jLoginPasswordHere"
+export NEO4J_ENDPOINT="0.0.0.0"

@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=Supp0rt
+      - POSTGRES_USER=pgadmin
+      - POSTGRES_DB=dev01
+    volumes:
+      - ./data2:/var/lib/postgresql/data
+      - ./files:/tmp/movedata

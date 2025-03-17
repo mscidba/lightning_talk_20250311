@@ -1,0 +1,7 @@
+#!/bin/bash
+export POSTGRES_DATABASE="YourPOSTGRESDatabaseNameHere"
+export POSTGRES_WAREHOUSE="YourPOSTGRESWarehouseNameHere"
+export POSTGRES_SCHEMA="YourPOSTGRESSchemaNameHere"
+export LIQUIBASE_COMMAND_USERNAME="YourPOSTGRESLoginNameHere"
+export LIQUIBASE_COMMAND_PASSWORD="YourPOSTGRESLoginPasswordHere"
+export POSTGRES_ENDPOINT="YourPOSTGRESServerNameIPHere"

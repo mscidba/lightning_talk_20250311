@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:neo4j="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd"> 
+    <changeSet id="structure-01" author="jeff.pell" runAlways="true"> 
+	<neo4j:cypher>MERGE (:State {StateName: 'TEMPLATE'})</neo4j:cypher>
+    </changeSet>
+    <changeSet id="structure-03" author="jeff.pell">
+	    <neo4j:cypher>CREATE CONSTRAINT state_name FOR (s:State) REQUIRE s.state_name IS UNIQUE </neo4j:cypher>
+    </changeSet>
+    <changeSet id="structure-04" author="jeff.pell" runAlways="true">
+	    <neo4j:cypher> 
+		    LOAD CSV WITH HEADERS FROM 'file:///State.csv' AS row MERGE (State:State {StateName: row.state_name })
+	    </neo4j:cypher>
+    </changeSet>
+    <changeSet id="structure-05" author="jeff.pell" runAlways="true">
+	    <neo4j:cypher> 
+		    LOAD CSV WITH HEADERS FROM 'file:///State.csv' AS row
+		    MATCH (State:State {StateName: row.state_name})
+		    MATCH (StateBordering:State {StateName: row.state_name_bordering})
+		    MERGE (State)-[:BORDERS]->(StateBordering)
+	    </neo4j:cypher>
+    </changeSet>
+</databaseChangeLog>
